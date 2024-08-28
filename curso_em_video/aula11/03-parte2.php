@@ -15,14 +15,18 @@
         $f = isset($_GET["fin"]) ? $_GET["fin"] : 10;
         $in = isset($_GET["inc"]) ? $_GET["inc"] : 1;
 
+        if ($in == 0) {
+            $in = 1; 
+        }
+
         while ($i <= $f) {
-            echo $i;
-           $i + $in;
+            echo $i . "<br>";
+           $i += $in;
         }
 
 
         ?>
-        <a href="02-parte01.php">Voltar</a>
+        <a href="03-parte01.php">Voltar</a>
     </div>
 </body>
 
