@@ -22,15 +22,15 @@ Note:
 
 The magic constants are case-insensitive, meaning __LINE__ returns the same as __line__. -->
 
-<?php
-class Fruits {
-  public function myValue(){
-    return __CLASS__;
-  }
-}
-$kiwi = new Fruits();
-echo $kiwi->myValue();
-?>
+<!-- <?php
+// class Fruits {
+//   public function myValue(){
+//     return __CLASS__;
+//   }
+// }
+// $kiwi = new Fruits();
+// echo $kiwi->myValue();
+?> -->
 
 <?php
 echo __DIR__;
